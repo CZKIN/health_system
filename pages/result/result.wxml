@@ -1,0 +1,19 @@
+<!--pages/result/result.wxml-->
+<view class="result_container">
+    <view class="result_title">
+        {{result.caution}}
+    </view>
+    <view wx:if="{{condition == 1}}" class='imagesize'>
+    <image src='../../image/high.png'></image>
+    </view>
+    <view wx:elif="{{condition ==0}}" class='imagesize'>
+    <image src='../../image/low.png'></image>
+    </view>
+    <text class="result_content">
+        您的{{result.case}},{{result.control}}
+    </text>
+    <text class="tip_content">
+        tips:{{code}}
+    </text>
+    <button bindtap="finish" class='button-contain'>我已知道</button>
+</view>

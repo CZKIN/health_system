@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<!--页面图片轮播图-->
+<swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true"> 
+      <block wx:for="{{arr}}"> 
+        <swiper-item> 
+        <view class='imagesize'>
+            <image src="{{item}}" bindtap="to_news"mode="widthFix" style="width:100%;"/> 
+          </view>
+        </swiper-item> 
+      </block> 
+</swiper>
+
+<!--主要内容-->
+<view class='container'>
+    <button bindtap="question1" class='button-contain'>测试系统一</button>
+    <button bindtap="question2" class='button-contain'>测试系统二</button>
+</view>
+<view class='footer'>
+    <view class='footer_links'>
+        <navigator url="../statistics/statistics" class='footer_link'>更多数据</navigator>
+    </view>
+    <view class='footer_text'>Copyright © 白泽</view>
+</view>

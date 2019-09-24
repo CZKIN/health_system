@@ -1,0 +1,5 @@
+<!--pages/news/news.wxml-->
+<view class='image-show'>
+<image class="image_frame" src="https://health.stusar.com/tnb.jpg" mode="widthFix">
+ </image>
+ </view>

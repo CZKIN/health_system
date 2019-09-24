@@ -1,0 +1,36 @@
+/* pages/statistics/statistics.wxss */
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: #d13f4934;
+}
+.bg-g{
+  background: #d13f4934;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #d13f49;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.text-content{
+  display: flex;
+  justify-content: center;
+}

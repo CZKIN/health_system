@@ -1,0 +1,51 @@
+/* pages/index/index.wxss */
+.imagesize{
+  display: flex;
+  justify-content: center;
+}
+
+.text_container{
+  text-align:center;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.button-contain {
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background: #d13f49;
+    color: white;
+    padding: 0rpx 100rpx;
+}
+.button-contain::after{ 
+    border: none; 
+}
+
+
+.footer{
+  color:#999;
+  font-size:14px;
+  text-align:center;
+}
+
+.footer_links{
+  font-size:0;
+}
+
+.footer_link{
+  display:inline-block;
+  vertical-align:top;
+  margin:0 .62em;
+  position:relative;
+  font-size:14px;
+  color:#586c94;
+}
+
+.footer_text{
+  padding:0 .34em;
+  font-size:12px;
+}

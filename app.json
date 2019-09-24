@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/show/show",
+    "pages/result/result",
+    "pages/statistics/statistics",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d13f49",
+    "navigationBarTitleText": "糖尿病风险预测系统",
+    "navigationBarTextStyle": "white"
+  }
+}

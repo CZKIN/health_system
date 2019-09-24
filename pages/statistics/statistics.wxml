@@ -1,0 +1,46 @@
+<!--pages/statistics/statistics.wxml-->
+<!--<text>总共有：{{total_user}}人参与了测试</text>
+<text>\n</text>
+<text>其中有：{{user_high}}人存在高风险</text>
+<text>\n</text>
+<text>其中有：{{user_low}}人存在低风险</text>
+<text>\n</text>
+<text>总共有：{{user_total}}人参与了调查</text>
+<text>\n</text>
+<text>其中有：{{user_right}}人认为测试准确</text>
+<text>\n</text>
+<text>其中有：{{user_wrong}}人认为测试不准确</text>
+<text>\n</text>
+<text>准确率高达：{{user_rate}}%</text>-->
+<view class='text-content'>
+<text>参与测试人数数据</text>
+</view>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">总人数</view>
+    <view class="th">高风险</view>
+    <view class="th ">低风险</view>
+  </view>
+  <view class="tr bg-g">
+      <view class="td">{{total_user}}</view>
+      <view class="td">{{user_high}}</view>
+      <view class="td">{{user_low}}</view>
+    </view>
+</view>
+<view class='text-content'>
+<text>参与调查人数数据</text>
+</view>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">总人数</view>
+    <view class="th">准确</view>
+    <view class="th ">不准</view>
+    <view class="th ">准确率</view>
+  </view>
+  <view class="tr bg-w">
+      <view class="td">{{user_total}}</view>
+      <view class="td">{{user_right}}</view>
+      <view class="td">{{user_wrong}}</view>
+      <view class="td">{{user_rate}}%</view>
+    </view>
+</view>

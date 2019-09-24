@@ -1,0 +1,5 @@
+/* pages/news/news.wxss */
+.image-show{
+  display: flex;
+  justify-content: center;
+}
